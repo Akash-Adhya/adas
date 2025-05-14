@@ -2,23 +2,26 @@
 
 ## 🎥 Demo Videos
 
-* ### 🎬 Introduction
+- ### 🎬 Introduction
 
 <div align="center">
   <img src="assets/INTRO.gif" alt="ADAS Demo" height="400" width="250">
 </div>
 
-* ### 🔄 Round Movement
+- ### 🔄 Round Movement
 
 <div align="center">
   <img src="assets/ROUNDMOVEMENT.gif" alt="ADAS Demo" height="300">
 </div>
 
-* ### ⬆️ Front Movement
+
+- ### ⬆️ Front Movement
 
 <div align="center">
   <img src="assets/FRONTMOVEMENT.gif" alt="ADAS Demo" height="400" width="250">
 </div>
+
+---
 
 <br><br><br>
 
@@ -26,20 +29,20 @@
 
 Advanced Driver Assistance Systems (ADAS) are intelligent systems that help drivers by providing enhanced safety and driving experience. These systems utilize sensors, cameras, and control algorithms to:
 
-* Detect potential hazards
-* Automate certain driving functions
-* Provide critical information to the driver
-* Take preventive actions when necessary
+- Detect potential hazards
+- Automate certain driving functions
+- Provide critical information to the driver
+- Take preventive actions when necessary
 
 ## 🤔 Why ADAS?
 
 Key reasons for ADAS development:
 
-* **Safety**: Reduces human error (cause of 94% of accidents - NHTSA)
-* **Efficiency**: Optimizes driving patterns for fuel/energy savings
-* **Comfort**: Reduces driver fatigue in traffic/long drives
-* **Regulation**: Meets evolving automotive safety standards
-* **Foundation**: Building block for autonomous vehicles
+- **Safety**: Reduces human error (cause of 94% of accidents - NHTSA)
+- **Efficiency**: Optimizes driving patterns for fuel/energy savings
+- **Comfort**: Reduces driver fatigue in traffic/long drives
+- **Regulation**: Meets evolving automotive safety standards
+- **Foundation**: Building block for autonomous vehicles
 
 ## 💡 Use Cases of ADAS
 
@@ -64,48 +67,48 @@ Key reasons for ADAS development:
 
 This project demonstrates a **basic ADAS implementation** using an Arduino-compatible microcontroller and sensor suite to simulate:
 
-* Obstacle detection and avoidance
-* Emergency braking
-* Lane-following using IR sensors
-* Automatic parking mode
-* Speed control and mode switching (Auto, Manual, Parking)
-* Bluetooth support for command handling
+- Obstacle detection and avoidance
+- Emergency braking
+- Lane-following using IR sensors
+- Automatic parking mode
+- Speed control and mode switching (Auto, Manual, Parking)
+- Bluetooth support for command handling
 
 ## 🛠️ System Capabilities
 
-* **Autonomous Mode:** Line following with obstacle avoidance
-* **Manual Mode:** Future support for remote/Bluetooth control
-* **Parking Mode:** Forward parking with obstacle-based halting
-* **Obstacle Avoidance:** Left/right scanning and intelligent redirection
-* **Emergency Stop:** Immediate halt when obstacle is too close
-* **Speed Control:** Adjustable auto speed via commands
-* **Alerts:** Buzzer and LED for event signaling
+- **Autonomous Mode:** Line following with obstacle avoidance
+- **Manual Mode:** Future support for remote/Bluetooth control
+- **Parking Mode:** Forward parking with obstacle-based halting
+- **Obstacle Avoidance:** Left/right scanning and intelligent redirection
+- **Emergency Stop:** Immediate halt when obstacle is too close
+- **Speed Control:** Adjustable auto speed via commands
+- **Alerts:** Buzzer and LED for event signaling
 
 ## ⚙️ Implementation Requirements
 
 ### 🔌 Hardware:
 
-* Arduino Uno or compatible microcontroller
-* L298N Motor Driver x2
-* Ultrasonic Sensor (HC-SR04)
-* IR Sensors x2
-* Servo Motor (for directional scanning)
-* Buzzer
-* LED
-* DC Motors (Left & Right wheels)
-* Bluetooth Module (e.g., HC-05)
-* Power Supply (Battery or USB)
-* Chassis & Wheels
+- Arduino Uno or compatible microcontroller
+- L298N Motor Driver x2
+- Ultrasonic Sensor (HC-SR04)
+- IR Sensors x2
+- Servo Motor (for directional scanning)
+- Buzzer
+- LED
+- DC Motors (Left & Right wheels)
+- Bluetooth Module (e.g., HC-05)
+- Power Supply (Battery or USB)
+- Chassis & Wheels
 
-### 💻 Software:
+### 💻 Software
 
-* Arduino IDE
-* Libraries:
+- Arduino IDE
+- Libraries:
 
-  * `Servo.h`
-  * `L298N.h` (external motor driver library)
-  * `NewPing.h`
-  * `SoftwareSerial.h` (for Bluetooth)
+  - `Servo.h`
+  - `L298N.h` (external motor driver library)
+  - `NewPing.h`
+  - `SoftwareSerial.h` (for Bluetooth)
 
 ## 🧩 Software Architecture
 
@@ -113,32 +116,35 @@ Key Functional Blocks:
 
 1. **Sensor Input Layer**
 
-   * Continuous distance monitoring
-   * Line sensor polling
+   - Continuous distance monitoring
+   - Line sensor polling
+
 2. **Decision Layer**
 
-   * State machine for mode handling
-   * Collision risk assessment
+   - State machine for mode handling
+   - Collision risk assessment
+
 3. **Actuation Layer**
 
-   * Motor control
-   * Steering servo control
+   - Motor control
+   - Steering servo control
+
 4. **User Interface**
 
-   * Bluetooth commands
-   * Audible/visual feedback
+   - Bluetooth commands
+   - Audible/visual feedback
 
 ![Flowchart](https://via.placeholder.com/600x400?text=System+Flowchart)
-*(placeholder for flowchart)*
+_(placeholder for flowchart)_
 
 ## 🏁 Accomplishments
 
-✅ Fully functional obstacle avoidance system
-✅ Accurate line following implementation
-✅ Working parking assist mode
-✅ Smooth mode transitions (auto/manual/parking)
-✅ Emergency stop functionality
-✅ Configurable speed parameters
+- ✅ Fully functional obstacle avoidance system
+- ✅ Accurate line following implementation
+- ✅ Working parking assist mode
+- ✅ Smooth mode transitions (auto/manual/parking)
+- ✅ Emergency stop functionality
+- ✅ Configurable speed parameters
 
 ## 🚀 Getting Started
 
@@ -147,10 +153,10 @@ Key Functional Blocks:
 3. Assemble hardware per pin definitions
 4. Power on and send commands:
 
-   * 'A': Autonomous mode
-   * 'M': Manual mode
-   * 'P': Parking mode
-   * '+/-': Speed adjustment
+   - 'A': Autonomous mode
+   - 'M': Manual mode
+   - 'P': Parking mode
+   - '+/-': Speed adjustment
 
 ## 🔢 Pin Configuration Summary
 
@@ -179,11 +185,11 @@ Key Functional Blocks:
 
 ## 👨‍💻 Contributors
 
-* **Akash Adhya** — Developer and Team Lead
-* **Prakas Dutta** — Developer and Supporting Engineer
-* **Anurag Sarkar** — Developer and Supporting Engineer
-* **Suvranil Chattopadhyay** — Engineer
+- **Akash Adhya** — Developer and Team Lead
+- **Prakas Dutta** — Developer and Supporting Engineer
+- **Anurag Sarkar** — Developer and Supporting Engineer
+- **Suvranil Chattopadhyay** — Engineer
 
 ---
 
-🔗 *This project serves as a foundational step into autonomous vehicle systems using embedded development. It’s a perfect mix of hardware and software to bring real-world ADAS logic to life in a simplified, low-cost format.*
+🔗 _This project serves as a foundational step into autonomous vehicle systems using embedded development. It’s a perfect mix of hardware and software to bring real-world ADAS logic to life in a simplified, low-cost format._
