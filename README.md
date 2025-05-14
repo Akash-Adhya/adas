@@ -14,7 +14,6 @@
   <img src="assets/ROUNDMOVEMENT.gif" alt="ADAS Demo" height="300">
 </div>
 
-
 - ### ⬆️ Front Movement
 
 <div align="center">
@@ -34,6 +33,8 @@ Advanced Driver Assistance Systems (ADAS) are intelligent systems that help driv
 - Provide critical information to the driver
 - Take preventive actions when necessary
 
+<br>
+
 ## 🤔 Why ADAS?
 
 Key reasons for ADAS development:
@@ -44,6 +45,8 @@ Key reasons for ADAS development:
 - **Regulation**: Meets evolving automotive safety standards
 - **Foundation**: Building block for autonomous vehicles
 
+<br>
+
 ## 💡 Use Cases of ADAS
 
 1. **Collision Avoidance** (Implemented)
@@ -52,6 +55,8 @@ Key reasons for ADAS development:
 4. **Adaptive Cruise Control**
 5. **Blind Spot Detection**
 6. **Driver Drowsiness Detection**
+
+<br>
 
 ## ⚖️ Manual Driving vs ADAS
 
@@ -62,6 +67,8 @@ Key reasons for ADAS development:
 | Parking Assistance | Manual estimation   | Automated distance-based logic        |
 | Speed Control      | Driver input        | Controlled by predefined safety logic |
 | Alerts & Warnings  | Horns / lights      | Automated buzzer + LED alerts         |
+
+<br>
 
 ## 🎯 Project Objectives
 
@@ -74,6 +81,8 @@ This project demonstrates a **basic ADAS implementation** using an Arduino-compa
 - Speed control and mode switching (Auto, Manual, Parking)
 - Bluetooth support for command handling
 
+<br>
+
 ## 🛠️ System Capabilities
 
 - **Autonomous Mode:** Line following with obstacle avoidance
@@ -83,6 +92,8 @@ This project demonstrates a **basic ADAS implementation** using an Arduino-compa
 - **Emergency Stop:** Immediate halt when obstacle is too close
 - **Speed Control:** Adjustable auto speed via commands
 - **Alerts:** Buzzer and LED for event signaling
+
+<br>
 
 ## ⚙️ Implementation Requirements
 
@@ -110,6 +121,8 @@ This project demonstrates a **basic ADAS implementation** using an Arduino-compa
   - `NewPing.h`
   - `SoftwareSerial.h` (for Bluetooth)
 
+<br>
+
 ## 🧩 Software Architecture
 
 Key Functional Blocks:
@@ -134,8 +147,8 @@ Key Functional Blocks:
    - Bluetooth commands
    - Audible/visual feedback
 
-![Flowchart](https://via.placeholder.com/600x400?text=System+Flowchart)
-_(placeholder for flowchart)_
+
+<br>
 
 ## 🏁 Accomplishments
 
@@ -145,6 +158,8 @@ _(placeholder for flowchart)_
 - ✅ Smooth mode transitions (auto/manual/parking)
 - ✅ Emergency stop functionality
 - ✅ Configurable speed parameters
+
+<br>
 
 ## 🚀 Getting Started
 
@@ -157,6 +172,8 @@ _(placeholder for flowchart)_
    - 'M': Manual mode
    - 'P': Parking mode
    - '+/-': Speed adjustment
+
+<br>
 
 ## 🔢 Pin Configuration Summary
 
